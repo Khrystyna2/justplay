@@ -1,0 +1,42 @@
+.game {
+    padding-top: 51px;
+    padding-bottom: 100px;
+}
+
+.game-title {
+    margin-bottom: 77px;
+}
+
+.group-input {
+    width: 100%;
+    background-color: $bg-color-white;
+    margin-bottom: 77px;
+    position: relative;
+    input {
+        width: 80%;
+        border: 1px solid #DCDCDC;
+        border-right: none;
+        background-color: transparent;
+        padding-left: 25px;
+        padding-right: 12%;
+        font-size: $fs-22;
+        color: $black-color;
+        font-family: inherit;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height: 60px;
+    }
+    button {
+        width: 187px;
+        height: 60px;
+        box-shadow: 0px 0px 12px rgba(213, 0, 56, 0.37);
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: $fs-22;
+        > img {
+            margin-right: 13px;
+            width: 24px;
+        }
+    }
+}

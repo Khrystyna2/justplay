@@ -1,0 +1,854 @@
+@media only screen and (max-width: 1600px) and (min-width: 1201px) {
+    .header, .banner {
+        .container {
+            max-width: 100%;
+            padding: 0 55px;
+        }
+    }
+
+    p {
+        font-size: $fs-22 - 5;
+        line-height: 28px;
+    }
+
+    .title-section {
+        font-size: 60px;
+        line-height: 50px;
+        margin-bottom: 30px;
+        > span {
+            font-size: 30px;
+            border-bottom: 2px solid;
+            padding-bottom: 3px;
+            line-height: 42px;
+        }
+    }
+
+    .header__title {
+        font-size: 43px;
+        line-height: 45px;
+        margin-bottom: 6px;
+    }
+    
+    .header__text {
+        font-size: $fs-22 - 5;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .header-btn {
+        font-size: $fs-22;
+        width: 330px;
+        height: 85px;
+        margin-left: -165px;
+        bottom: 24px;
+        > img {
+            width: 28px;
+        }
+    }
+
+    .section-news {
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    
+    .box-news {
+        > img {
+            margin-bottom: 30px;
+        }
+        > p {
+            font-size: $fs-22 - 2;
+            font-weight: 700;
+            line-height: 34px;
+        }
+    }
+
+    .news-list {
+        font-size: $fs-22;
+        line-height: 28px;
+        li {
+            padding: 14px 0;
+            span {
+                width: 52px;
+                height: 52px;
+                font-size: $fs-22 + 1;
+                line-height: 52px;
+            }
+        }
+    }
+
+    .news-btn {
+        > a {
+            font-size: $fs-22 - 2;
+            width: 200px;
+            height: 60px;
+        }
+    }
+
+    .gallery-image__desc{
+        h3 {
+            font-size: $fs-22 + 4;
+            margin-top: 20px;
+        }
+        > img {
+               margin-top: 9%;
+        }
+    }
+
+    .gallery-image-btn {
+        > a {
+            font-size: $fs-22 - 2;
+            width: 200px;
+            height: 60px;
+        }
+    }
+
+    .clients {
+        margin-top: 45px;
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+    
+    .clients-content {
+        margin-top: 80px;
+        > img {
+            margin-bottom: 40px;
+        }
+    }
+
+
+    .footer {
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+    
+    .footer-content {
+       &__block {
+            .footer-content__block_title {
+            font-size: 34px;
+            line-height: 36px;
+            border-bottom: 2px solid $bg-color-red;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+           }
+           > ul {
+               font-size: $fs-22 - 2;
+               line-height: 26px;
+               li {
+                   margin-bottom: 20px;
+                   a {
+                       > img {
+                           width: 150px;
+                           margin-bottom: 10px;
+                       }
+                   }
+                   &:last-of-type {
+                       a > img {
+                           width: 100px;
+                       }
+                   }
+               }
+           }
+       }
+    }
+    
+    .follow-us {
+        font-size: $fs-22 - 2;
+        padding-top: 70px;
+        margin-top: 60px;
+    }
+
+
+    .game-title {
+        margin-bottom: 65px;
+    }
+    
+    .group-input {
+        margin-bottom: 65px;
+        input {
+            font-size: $fs-22 - 2;
+            height: 55px;
+        }
+        button {
+            width: 170px;
+            height: 55px;
+            font-size: $fs-22 - 2;
+            > img {
+                margin-right: 10px;
+                width: 20px;
+            }
+        }
+    }
+       
+}
+
+@media only screen and (max-width: 1200px) {
+
+    p {
+        font-size: $fs-22 - 4;
+        line-height: 28px;
+    }
+
+    .title-section {
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        > span {
+            font-size: 25px;
+            border-bottom: 2px solid;
+            padding-bottom: 3px;
+            line-height: 38px;
+        }
+    }
+
+    .top-menu {
+        height: 100px;
+        .logo {
+            width: 250px;
+            > img {
+                width: 100%;
+            }
+        }
+    }
+    
+    .menu {
+        li {
+            margin-left: 50px;
+            a {
+                font-size: $font-size;
+            }
+        }
+    }
+    
+    main {
+        padding-top: 100px;
+    }
+
+    .header__title {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 6px;
+        margin-top: 18px;
+    }
+    
+    .header__text {
+        font-size: $fs-22 - 6;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .header__banner-image {
+        height: 490px;
+    }
+
+    .header-btn {
+        font-size: $fs-22 - 4;
+        width: 290px;
+        height: 60px;
+        margin-left: -145px;
+        bottom: 24px;
+        > img {
+            width: 24px;
+        }
+    }
+
+    .section-news {
+        padding-top: 45px;
+        padding-bottom: 65px;
+    }
+    
+    .box-news {
+        > img {
+            margin-bottom: 26px;
+        }
+        > p {
+            font-size: $fs-22 - 6;
+            line-height: 26px;
+        }
+    }
+    
+    .news-list {
+        font-size: $fs-22 - 4;
+        line-height: 28px;
+        li {
+            padding: 12px 0;
+            span {
+                width: 46px;
+                height: 46px;
+                font-size: $fs-22;
+            }
+        }
+    }
+    
+    .news-btn {
+        > a {
+            font-size: $fs-22 - 6;
+            width: 180px;
+            height: 50px;
+        }
+    }
+
+    .gallery-image__desc{
+        h3 {
+            font-size: $fs-22;
+            margin-top: 24px;
+        }
+        > img {
+            margin-top: 8%;
+            width: 35%;
+        }
+    }
+    
+    .gallery-image-btn {
+        > a {
+            font-size: $fs-22 - 6;
+            width: 180px;
+            height: 50px;
+        }
+    }
+
+    .clients {
+        margin-top: 35px;
+        padding-bottom: 120px;
+    }
+    
+    .clients-content {
+        margin-top: 75px;
+        a {
+            margin: 0 1% 25px 1%;
+            width: 14.5%;
+            > img {
+                max-width: 100%;
+                max-height: 68%;
+            }
+        }
+    }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    
+    .footer-content {
+       &__block {
+           .footer-content__block_title {
+            font-size: 30px;
+            line-height: 32px;
+            border-bottom: 2px solid $bg-color-red;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+           }
+           > ul {
+               font-size: $fs-22 - 4;
+               line-height: 20px;
+               li {
+                   margin-bottom: 14px;
+                   a {
+                       > img {
+                           width: 150px;
+                           margin-bottom: 10px;
+                       }
+                   }
+                   &:last-of-type {
+                       a > img {
+                           width: 100px;
+                       }
+                   }
+               }
+           }
+       }
+    }
+    
+    .follow-us {
+        font-size: $fs-22 - 4;
+        padding-top: 50px;
+        margin-top: 40px;
+    }
+
+    .game-title {
+        margin-bottom: 65px;
+    }
+    
+    .group-input {
+        margin-bottom: 65px;
+        input {
+            font-size: $fs-22 - 2;
+            height: 55px;
+        }
+        button {
+            width: 170px;
+            height: 55px;
+            font-size: $fs-22 - 2;
+            > img {
+                margin-right: 10px;
+                width: 20px;
+            }
+        }
+    }
+
+    .game-title {
+        margin-bottom: 55px;
+    }
+    
+    .group-input {
+        margin-bottom: 55px;
+        input {
+            font-size: $fs-22 - 2;
+            height: 50px;
+        }
+        button {
+            width: 160px;
+            height: 50px;
+            font-size: $fs-22 - 4;
+            > img {
+                margin-right: 10px;
+                width: 20px;
+            }
+        }
+    }
+
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+    p {
+        font-size: $fs-22 - 8;
+        line-height: 24px;
+    }
+
+    .title-section {
+        font-size: 40px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        > span {
+            font-size: 24px;
+            border-bottom: 1px solid;
+            padding-bottom: 3px;
+            line-height: 34px;
+        }
+    }
+
+    .top-menu {
+        height: 80px;
+        .logo {
+            width: 210px;
+        }
+    }
+    
+    .menu {
+        li {
+            margin-left: 35px;
+            a {
+                font-size: $font-size - 2;
+            }
+        }
+    }
+
+    
+    main {
+        padding-top: 80px;
+    }
+    
+    .header__text {
+        font-size: $fs-22 - 8;
+        line-height: 24px;
+    }
+
+    .header__banner-image {
+        height: 430px;
+    }
+
+    .section-news {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+    
+    .box-news {
+        > p {
+            line-height: 22px;
+        }
+    }
+    
+    .news-list {
+        font-size: $fs-22 - 6;
+        line-height: 22px;
+    }
+
+    .clients {
+        margin-top: 25px;
+        padding-bottom: 80px;
+    }
+    
+    .clients-content {
+        margin-top: 55px;
+        a {
+            margin: 0 1% 25px 1%;
+            width: 18%;
+            > img {
+                max-width: 100%;
+                max-height: 68%;
+            }
+        }
+    }
+
+    .footer {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-content {
+       &__block {
+            width: 34%;
+           .footer-content__block_title {
+            font-size: $fs-22 +2;
+            line-height: 26px;
+            border-bottom: 2px solid $bg-color-red;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+           }
+           > ul {
+               font-size: $fs-22 - 7;
+               line-height: 26px;
+               li {
+                   margin-bottom: 10px;
+                   a {
+                       > img {
+                           width: 100px;
+                           margin-bottom: 8px;
+                       }
+                   }
+                   &:last-of-type {
+                       a > img {
+                           width: 70px;
+                       }
+                   }
+               }
+           }
+       }
+    }
+
+    .footer-content__block-group {
+        width: 55%;
+    }
+    
+    .follow-us {
+        font-size: $fs-22 - 6;
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+
+    .game-title {
+        margin-bottom: 45px;
+    }
+
+    .group-input {
+        margin-bottom: 45px;
+        input {
+            font-size: $fs-22 - 6;
+            height: 50px;
+        }
+        button {
+            width: 120px;
+            height: 50px;
+            font-size: $fs-22 - 6;
+            > img {
+                margin-right: 5px;
+                width: 18px;
+            }
+        }
+    }
+
+    
+}
+
+@media only screen and (max-width: 767.5px) {
+
+    p {
+        font-size: $fs-22 - 7;
+        line-height: 28px;
+    }
+
+    /*button menu*/
+     %span-style {
+        display: block;
+        position: absolute;
+        top: 50%; margin-top: -1.5px;
+        right: 0;
+        width: 35px;
+        height: 3px;
+        background-color: $black-color;
+    }
+
+    .menu-btn{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        cursor: pointer;
+        > span {
+            @extend %span-style;
+            &::after {
+                @extend %span-style;
+                content: '';
+                display: block;
+                @include transition(.4s);
+                @include transform(translateY(6px));
+            }
+            &::before {
+                @extend %span-style;
+                content: '';
+                display: block;
+                @include transition(.4s);
+                @include transform(translateY(-6px));
+            }
+        }
+    }
+   
+    .menu-btn_active span{
+        height: 0;
+        &::before {
+            @include transform(rotate(-42deg));
+        }
+        &::after {
+            @include transform(rotate(42deg));
+        }
+    }
+   
+    .top-menu {
+        position: relative;
+        > nav {
+            display: none;
+            position: absolute;
+            left: -15px;
+            top: 100%;
+            width: calc(100% + 30px);
+            // height: calc(100vh - 80px);
+            background-color: $bg-color-white;
+            z-index: 10;
+            .menu {
+                width: 100%;
+                flex-flow: column;
+                align-items: center;
+                li {
+                    padding: 40px 0;
+                    margin-left: 0;
+                    a {
+                        font-size: $fs-22 - 2;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider-header {
+        max-height: 330px;
+        overflow: hidden;
+    }
+
+    .header__banner-image {
+        height: 330px;
+        background-size: 1150px !important;
+    }
+
+    .header-btn {
+        bottom: 16px;
+    }
+
+    .index-gallery {
+        .col-6.col-md-4 {
+            padding: 0 10px;
+        }
+    }
+
+    .news-btn {
+        > a {
+            margin: 0 auto;
+        }
+    }
+
+    .gallery-image {
+        margin-bottom: 20px;
+    }
+
+    .gallery-image-btn {
+        > a {
+            margin: 25px auto 49px;
+        }
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        &__block {
+            width: 48%
+        }
+    }
+
+    .footer-content__block-group {
+        width: 46%;
+        flex-flow: column;
+        .footer-content__block {
+            width: 100%;
+            &:last-of-type {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .game {
+        padding-top: 30px;
+        padding-bottom: 70px;
+        .col-6.col-md-4 {
+            padding: 0 10px;
+        }
+    }
+
+    .game-title {
+        margin-bottom: 35px;
+    }
+
+    .group-input {
+        margin-bottom: 35px;
+        button {
+            width: 130px;
+        }
+    }
+
+
+} 
+
+@media only screen and (max-width: 425px) {
+    .top-menu {
+        height: 50px;
+        .logo {
+            width: 110px;
+        }
+    }
+
+    main {
+        padding-top: 50px;
+    }
+
+    .header__text {
+        font-size: $fs-22 - 6;
+        line-height: 28px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .slider-header {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+
+    .slider-header {
+        max-height: 270px;
+        overflow: hidden;
+    }
+
+    .header__banner-image {
+        height: 270px;
+        background-size: 800px !important;
+        background-position-y: bottom !important;
+    }
+
+    .index-gallery {
+        padding: 0 10px;
+        .col-6.col-md-4 {
+            padding: 0 5px;
+        }
+    }
+
+    .gallery-image {
+        margin-bottom: 10px;
+    }
+
+    .gallery-image__desc{
+        h3 {
+            font-size: $fs-22 - 2;
+            margin-top: 16px;
+        }
+    }
+
+    .clients {
+        margin-top: 19px;
+        padding-bottom: 80px;
+    }
+
+    .clients-content {
+        margin-top: 39px;
+        a {
+            width: 31%;
+            > img {
+                max-height: 100%;
+            }
+        }
+    }
+
+    .footer {
+        border-top: 10px solid $bg-color-red;
+        padding-top: 30px;
+        padding-bottom: 42px;
+    }
+
+    .footer-content {
+        &__block {
+            > ul {
+                li {
+                    a {
+                        > img {
+                            width: 75px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    &:last-of-type {
+                        a > img {
+                            width: 55px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .follow-us {
+        flex-flow: column;
+        font-size: $fs-22 - 7;
+        padding-top: 26px;
+        margin-top: 70px;
+        > div {
+            margin-top: 19px;
+        }
+        a {
+            margin: 0 11px;
+        }
+    }
+
+    .game {
+        padding-top: 30px;
+        padding-bottom: 70px;
+        .col-6.col-md-4 {
+            padding: 0 5px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+    .header, .banner {
+        .container {
+            max-width: 100%;
+            padding: 0 45px;
+        }
+    }
+    .container {
+        max-width: 1435px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .header, .banner {
+        .container {
+            max-width: 1678px;
+            padding: 0 15px;
+        }
+    }
+}

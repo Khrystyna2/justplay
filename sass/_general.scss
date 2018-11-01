@@ -1,0 +1,99 @@
+$font-stack:    'Muli', sans-serif;
+$font-size: 16px;
+$black-color: #121212;
+$white-color: #fff;
+$blue-color:#3EB4F0;
+$red-color: #D50038;
+$gray-color: #E2E2E2;
+$fs-22: 22px;
+
+$bg-color-blue: #3EB4F0;
+$bg-color-red: #D50038;
+$bg-color-white: #fff;
+
+
+@mixin border-radius($radius){
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}
+
+@mixin transform ($property){
+    transform: $property;
+    -webkit-transform: $property;
+    -moz-transform: $property;
+    -ms-transform: $property;
+    -o-transform: $property;
+}
+
+@mixin transition ($property){
+    transition: $property;
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    -ms-transition: $property;
+    -o-transition: $property;
+}
+
+
+body {
+    width: 100%;
+    background-color: $bg-color-white;
+    overflow-x: hidden;
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: $font-size;
+    line-height: 19px;
+    color: $black-color;
+}
+
+p {
+    font-size: $fs-22;
+    line-height: 39px;
+}
+
+.box-shadow {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-red {
+    @include border-radius(100px);
+    color: $white-color;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: $bg-color-red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include transition(.5s);
+    &:hover {
+        background-color: $bg-color-red  * 2;
+    }
+}
+
+.title-section {
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: $blue-color;
+    line-height: 70px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 44px;
+    > span {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        color: $red-color;
+        font-size: 50px;
+        border-bottom: 3px solid;
+        padding-bottom: 4px;
+        display: inline-block;
+        line-height: 56px;
+        margin-right: 8px;
+    }
+}
+
+
+
+
