@@ -1,5 +1,5 @@
-@media only screen and (max-width: 1600px) and (min-width: 1201px) {
-    .header, .banner {
+@media only screen and (max-width: 1600px) and (min-width: 1301px) {
+    .header, .banner, #link-page {
         .container {
             max-width: 100%;
             padding: 0 55px;
@@ -35,7 +35,7 @@
         margin-bottom: 30px;
     }
 
-    .header-btn {
+    .btn-play-game {
         font-size: $fs-22;
         width: 330px;
         height: 85px;
@@ -178,10 +178,38 @@
             }
         }
     }
+
+    .slider {
+        .slick-prev, .slick-next {
+            width: 70px;
+            height: 70px;
+        }
+        .slick-prev {
+            left: 260px;
+            &::before {
+                font-size: $fs-22 + 30;
+            }
+        }
+        .slick-next {
+            right: 260px;
+            &::before {
+                font-size: $fs-22 + 30;
+            }
+        }
+    }
+
+    .name-open-game {
+        margin-bottom: 38px;
+        margin-top: -30px;
+        h2 {
+            font-size: $fs-22 + 30;
+        }
+    }
+
        
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 
     p {
         font-size: $fs-22 - 4;
@@ -240,7 +268,7 @@
         height: 490px;
     }
 
-    .header-btn {
+    .btn-play-game {
         font-size: $fs-22 - 4;
         width: 290px;
         height: 60px;
@@ -406,6 +434,68 @@
         }
     }
 
+    .slider {
+        height: auto;
+        .slick-track {
+            .slider-items {
+                img {
+                    margin: 0;
+                    width: 100%;
+                    @include transform(scale(.9));
+                }
+                &.slick-center {
+                    img {
+                    @include transform(scale(1));
+                    }
+                }
+            } 
+        }
+        .slick-prev, .slick-next {
+            width: 60px;
+            height: 60px;
+        }
+        .slick-prev {
+            left: 110px;
+            &::before {
+                font-size: $fs-22 + 20;
+            }
+        }
+        .slick-next {
+            right: 110px;
+            &::before {
+                font-size: $fs-22 + 20;
+            }
+        }
+    }
+
+    #open-game__slider {
+        .btn-play-game {
+            bottom: 25px;
+        }
+    }
+
+    .name-open-game {
+        margin-bottom: 38px;
+        h2 {
+            font-size: $fs-22 + 20;
+        }
+        a {
+            font-size: $fs-22;
+            svg {
+                width: 22px;
+            }
+        }
+    }
+    
+    .navigation-open-game {
+        padding: 125px 0 100px;
+        a {
+            font-size: $fs-22;
+            padding: 0 58px;
+            line-height: 38px;
+        }
+    }
+
     
 }
 
@@ -558,6 +648,29 @@
         }
     }
 
+    .name-open-game {
+        margin-bottom: 28px;
+        h2 {
+            font-size: $fs-22 + 15;
+        }
+        a {
+            font-size: $fs-22 - 4;
+            svg {
+                width: 20px;
+            }
+        }
+    }
+    
+    .navigation-open-game {
+        padding: 95px 0 70px;
+        a {
+            font-size: $fs-22 - 4;
+            padding: 0 38px;
+            line-height: 30px;
+        }
+    }
+
+
     
 }
 
@@ -649,7 +762,7 @@
         background-size: 1150px !important;
     }
 
-    .header-btn {
+    .btn-play-game {
         bottom: 16px;
     }
 
@@ -712,8 +825,88 @@
         }
     }
 
+    .slider {
+        height: auto;
+        .slick-prev, .slick-next {
+            width: 40px;
+            height: 40px;
+        }
+        .slick-prev {
+            left: 40px;
+            &::before {
+                font-size: $fs-22 + 6;
+            }
+        }
+        .slick-next {
+            right: 40px;
+            &::before {
+                font-size: $fs-22 + 6;
+            }
+        }
+    }
+
+    .name-open-game {
+        margin-bottom: 38px;
+        h2 {
+            font-size: $fs-22 + 10;
+        }
+        a {
+            font-size: $fs-22 - 6;
+            svg {
+                width: 18px;
+            }
+        }
+    }
+    
+    .navigation-open-game {
+        padding: 65px 0 60px;
+        a {
+            font-size: $fs-22 - 6;
+            padding: 0 22px;
+            line-height: 30px;
+        }
+    }
+    #open-game__slider {
+        .btn-play-game {
+            bottom: 10px;
+        }
+    }
+
+    .link-page {
+        font-size: $font-size;
+        padding-bottom: 14px;
+    }
 
 } 
+@media only screen and (max-width: 500px) {
+
+    .slider {
+        height: auto;
+        .slick-track {
+            .slider-items {
+                img {
+                    @include transform(scale(1));
+                }
+            } 
+        }
+    }
+
+    #open-game__slider {
+        .btn-play-game {
+            bottom: 10px;
+            width: 200px;
+            height: 40px;
+            margin-left: -100px;
+            font-size: $font-size - 4;
+            img {
+                width: 18px;
+            }
+        }
+    }
+
+}
+
+
 
 @media only screen and (max-width: 425px) {
     .top-menu {
@@ -830,10 +1023,34 @@
         }
     }
 
+    .name-open-game {
+        flex-flow: column;
+        margin-bottom: 20px;
+        margin-top: 0;
+        a {
+            margin-top: 15px;
+        }
+    }
+
+    .navigation-open-game {
+        flex-flow: column;
+        align-items: center;
+        padding: 45px 0;
+        a.all-game {
+            border: none;
+            padding: 14px 0;
+        }
+    }
+
+    .link-page {
+        font-size: $font-size - 4;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media only screen and (min-width: 1600px) {
-    .header, .banner {
+    .header, .banner, #link-page {
         .container {
             max-width: 100%;
             padding: 0 45px;
@@ -845,7 +1062,7 @@
 }
 
 @media only screen and (min-width: 1700px) {
-    .header, .banner {
+    .header, .banner, #link-page {
         .container {
             max-width: 1678px;
             padding: 0 15px;

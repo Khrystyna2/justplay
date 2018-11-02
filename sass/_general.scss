@@ -94,6 +94,20 @@ p {
     }
 }
 
+svg#arrow-cursor {
+    path:last-of-type {
+        display: none;
+    }
+}
+
+a:hover {
+    svg#arrow-cursor {
+        path:last-of-type {
+            display: block;
+        }
+    }
+}
+
 
 
 

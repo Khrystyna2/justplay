@@ -23,5 +23,48 @@ $(document).ready(function() {
             $('.header').removeClass("box-shadow");
         }
     });
+
+
+    $('.slider').slick({
+        infinite: true,
+        // autoplay:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '260px',
+        arrows: true,
+        variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+                variableWidth: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '130px',
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+                variableWidth: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '70px',
+            }
+          },
+          {
+            breakpoint: 500,
+            settings: {
+                variableWidth: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false
+            }
+          }
+        ]
+    });
     
 });

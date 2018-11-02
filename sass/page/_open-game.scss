@@ -1,0 +1,117 @@
+.link-page {
+    font-size: $fs-22 - 2;
+    font-weight: 600;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 20px;
+    a {
+        color: $red-color;
+        font-weight: 400;
+        &::after {
+            content: '/';
+            color: $black-color;
+            padding-left: 8px;
+        }
+    }
+}
+
+.slider {
+    margin: 24px 0;
+    height: 540px;
+    overflow: hidden;
+    .slick-track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .slider-items {
+            img {
+                margin: 15px;
+                max-width: 100%;
+                @include transform(scale(.9));
+                @include transition(0.5s ease);
+            }
+            &.slick-center {
+                img {
+                @include transform(scale(1.1));
+                }
+            }
+        } 
+    }
+    .slick-prev, .slick-next {
+        width: 80px;
+        height: 80px;
+        @include border-radius(50%);
+        background-color: $bg-color-red;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.68); 
+        z-index: 10;
+        &:hover {
+            background-color: $bg-color-red * 2;
+        }
+    }
+    .slick-prev {
+        left: 24%;
+        &::before {
+            content: '\f104';
+            font-family: 'FontAwesome', sans-serif;
+            font-size: $fs-22 + 40;
+            color: $white-color;
+            opacity: 1;
+            padding-right: 5px;
+        }
+    }
+    .slick-next {
+        right: 24%;
+        &::before {
+            content: '\f105';
+            font-family: 'FontAwesome', sans-serif;
+            font-size: $fs-22 + 40;
+            color: $white-color;
+            opacity: 1;
+            padding-left: 5px;
+        }
+    }
+}
+
+#open-game__slider {
+    width: 100%;
+    position: relative;
+    .btn-play-game {
+        bottom: 45px;
+    }
+}
+
+.name-open-game {
+    margin-bottom: 48px;
+    margin-top: -20px;
+    h2 {
+        font-size: $fs-22 + 50;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+    }
+    a {
+        font-size: $fs-22 + 2;
+        font-weight: 700;
+        color: $red-color;
+    }
+}
+
+.navigation-open-game {
+    padding: 173px 0 157px;
+    a {
+        font-size: $fs-22 + 4;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $red-color;
+        padding: 0 78px;
+        line-height: 46px;
+        @include transition(0.5s ease);
+        &:hover {
+        color: $red-color * 2;
+        }
+        &.all-game {
+            font-weight: 600;
+            border-left: 1px solid;
+            border-right: 1px solid;
+        }
+    }
+}
