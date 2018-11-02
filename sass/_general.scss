@@ -5,11 +5,13 @@ $white-color: #fff;
 $blue-color:#3EB4F0;
 $red-color: #D50038;
 $gray-color: #E2E2E2;
+$dark-gray: #888888;
 $fs-22: 22px;
 
 $bg-color-blue: #3EB4F0;
 $bg-color-red: #D50038;
 $bg-color-white: #fff;
+$bg-color-gray: #F9F9F9;
 
 
 @mixin border-radius($radius){
@@ -51,6 +53,10 @@ body {
 p {
     font-size: $fs-22;
     line-height: 39px;
+}
+
+main {
+    min-height: 70vh;
 }
 
 .box-shadow {

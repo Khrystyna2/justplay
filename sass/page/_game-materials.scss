@@ -1,0 +1,63 @@
+.nav {
+    background-color: $bg-color-gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    .nav-item {
+        width: 296px;
+        margin: 10px 50px 0;
+        .nav-link {
+            text-align: center;
+            color: $dark-gray;
+            font-size: $fs-22;
+            font-weight: 400;
+            img {
+                width: 100%;
+            }
+            &.active {
+                background-color: transparent;
+                color: $red-color;
+                position: relative;
+                .circle{
+                    background-color: $red-color;
+                }
+                &::after {
+                    content: '';
+                    background: url(../icons/caret-arrow-up.svg) no-repeat center center;
+                    background-size: contain;
+                    width: 72px;
+                    height: 50px;
+                    position: absolute;
+                    bottom: -16px;
+                    left: 50%;
+                    margin-left: -36px;
+                }
+            }
+            .circle {
+                width: 15px;
+                height: 15px;
+                @include border-radius(50%);
+                background-color: $dark-gray;
+                display: block;
+                margin: 20px auto 52px;
+            }
+        }
+    }
+}
+
+.tab-pane {
+    padding: 47px 0;
+    a {
+        width: 210px;
+        color: $dark-gray;
+        font-size: $fs-22 - 2;
+        display: inline-block;
+        margin: 0 42px;
+        text-align: center;
+        img {
+            width: 70%;
+            margin: 0 auto 32px;
+        }
+    }
+}
