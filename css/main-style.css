@@ -747,6 +747,7 @@ main {
 .tab-pane a img {
   width: 70%;
   margin: 0 auto 32px;
+  display: block;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1301px) {
@@ -1649,6 +1650,28 @@ main {
     font-size: 16px;
     padding-bottom: 14px;
   }
+
+  .nav .nav-item {
+    width: 140px;
+  }
+  .nav .nav-item .nav-link.active::after {
+    content: '';
+    width: 48px;
+    margin-left: -24px;
+  }
+
+  .tab-pane {
+    padding: 25px 0;
+  }
+  .tab-pane a {
+    width: 80px;
+    font-size: 12px;
+    margin: 0 18px;
+  }
+  .tab-pane a img {
+    width: 65%;
+    margin: 0 auto 14px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .slider {
@@ -1671,6 +1694,54 @@ main {
   }
   #open-game__slider .btn-play-game img {
     width: 18px;
+  }
+
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .nav .nav-item {
+    width: 100%;
+    margin: 0;
+  }
+  .nav .nav-item .nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav .nav-item .nav-link img {
+    width: 100px;
+    margin-right: 15px;
+  }
+  .nav .nav-item .nav-link.active::after {
+    content: '';
+    width: 0;
+    margin-left: 0;
+  }
+  .nav .nav-item .nav-link .circle {
+    display: none;
+  }
+
+  .tab-pane {
+    padding: 25px 0;
+  }
+  .tab-pane a {
+    width: 49%;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .tab-pane a img {
+    width: 70px;
+    margin: 0 auto 8px;
   }
 }
 @media only screen and (max-width: 425px) {
