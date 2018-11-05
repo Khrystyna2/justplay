@@ -1,4 +1,5 @@
 $font-stack:    'Muli', sans-serif;
+$font-family-second: 'Oswald', sans-serif;
 $font-size: 16px;
 $black-color: #121212;
 $white-color: #fff;
@@ -88,7 +89,7 @@ main {
     align-items: flex-start;
     margin-bottom: 44px;
     > span {
-        font-family: 'Oswald', sans-serif;
+        font-family: $font-family-second;
         font-weight: 300;
         color: $red-color;
         font-size: 50px;
@@ -97,6 +98,31 @@ main {
         display: inline-block;
         line-height: 56px;
         margin-right: 8px;
+    }
+}
+
+.link-page {
+    font-size: $fs-22 - 2;
+    font-weight: 600;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 20px;
+    display: flex;
+    a {
+        color: $red-color;
+        font-weight: 400;
+        &::after {
+            content: '/';
+            color: $black-color;
+            padding-left: 8px;
+        }
+    }
+    span {
+        padding-left: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 260px;
+        display: inline-block;
     }
 }
 
@@ -110,6 +136,28 @@ a:hover {
     svg#arrow-cursor {
         path:last-of-type {
             display: block;
+        }
+    }
+}
+
+.navigation-page {
+    padding: 173px 0 157px;
+    a {
+        font-size: $fs-22 + 4;
+        font-family: $font-family-second;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $red-color;
+        padding: 0 78px;
+        line-height: 46px;
+        @include transition(0.5s ease);
+        &:hover {
+        color: $red-color * 2;
+        }
+        &.all-game {
+            font-weight: 600;
+            border-left: 1px solid;
+            border-right: 1px solid;
         }
     }
 }

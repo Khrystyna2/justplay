@@ -66,5 +66,11 @@ $(document).ready(function() {
           }
         ]
     });
+
+    $('#loadMoreNews').click(function(event) {
+        event.preventDefault();
+        $('.news-wrap').append('<a href="#" class="news-content d-flex"><div class="news-content__img d-flex"><img src="image/news/news-photo.png" alt=""><div class="news-date"><time>Okt. 22 2018</time></div></div><div class="news-content__desc"><h3>Clash Royale.There should be a news header here</h3><p>There should be a short part of the news here. Battle with the ultimate legends and lead them into action in this online strategy RPG game! Breed ... </p></div></a><a href="#" class="news-content d-flex"><div class="news-content__img d-flex"><img src="image/news/news-photo.png" alt=""><div class="news-date"><time>Okt. 22 2018</time></div></div><div class="news-content__desc"><h3>Clash Royale.There should be a news header here</h3><p>There should be a short part of the news here. Battle with the ultimate legends and lead them into action in this online strategy RPG game! Breed ... </p></div></a><a href="#" class="news-content d-flex"><div class="news-content__img d-flex"><img src="image/news/news-photo.png" alt=""><div class="news-date"><time>Okt. 22 2018</time></div></div><div class="news-content__desc"><h3>Clash Royale.There should be a news header here</h3><p>There should be a short part of the news here. Battle with the ultimate legends and lead them into action in this online strategy RPG game! Breed ... </p></div></a>');
+    });
+
     
 });

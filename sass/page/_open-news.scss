@@ -1,0 +1,20 @@
+.open-news__content {
+    width: 100%;
+    > img {
+        width: 100%;
+        margin: 24px 0;
+    }
+    .open-news__title {
+        font-size: $fs-22 + 28px;
+        font-family: $font-family-second;
+        font-weight: 400;
+        line-height: 52px;
+    }
+    .open-news__date {
+        font-size: $fs-22 + 2;
+        font-family: $font-family-second;
+        color: #DCDCDC;
+        padding: 25px 0 51px;
+        display: block;
+    }
+}

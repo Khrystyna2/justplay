@@ -29,6 +29,9 @@
             &:hover {
                 color: $red-color;
             }
+            &.active-page {
+                color: $red-color;
+            }
         }
     }
 }
@@ -182,7 +185,7 @@ main {
             font-size: $fs-22 + 10;
             font-weight: 500;
             color: $white-color;
-            font-family: 'Oswald', sans-serif;
+            font-family: $font-family-second;
             text-transform: uppercase;
             margin-top: 34px;
         }
@@ -252,7 +255,7 @@ main {
         width: 25%;
         color: $white-color;
        .footer-content__block_title {
-        font-family: 'Oswald', sans-serif;
+        font-family: $font-family-second;
         font-weight: 300;
         font-size: 40px;
         line-height: 41px;
