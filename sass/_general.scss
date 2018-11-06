@@ -107,6 +107,7 @@ main {
     border-bottom: 1px solid #E5E5E5;
     padding-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
     a {
         color: $red-color;
         font-weight: 400;
@@ -114,10 +115,10 @@ main {
             content: '/';
             color: $black-color;
             padding-left: 8px;
+            padding-right: 8px;
         }
     }
     span {
-        padding-left: 6px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

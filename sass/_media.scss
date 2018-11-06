@@ -1383,6 +1383,20 @@
         }
     }
 
+    .group-input {
+        input {
+            width: 90%;
+            padding-left: 12px;
+            padding-right: 55px;
+        }
+        button {
+            width: 90px;
+            > span {
+                display: none;
+            }
+        }
+    }
+
     #open-game__slider {
         .btn-play-game {
             bottom: 10px;
@@ -1605,6 +1619,12 @@
         padding-bottom: 10px;
         span {
             width: 165px;
+        }
+    }
+
+    .group-input {
+        input {
+            padding-right: 65px;
         }
     }
 

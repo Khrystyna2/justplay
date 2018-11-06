@@ -136,6 +136,8 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .link-page a {
   color: #D50038;
@@ -145,9 +147,9 @@ main {
   content: '/';
   color: #121212;
   padding-left: 8px;
+  padding-right: 8px;
 }
 .link-page span {
-  padding-left: 6px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2260,6 +2262,18 @@ main {
     -o-transform: scale(1);
   }
 
+  .group-input input {
+    width: 90%;
+    padding-left: 12px;
+    padding-right: 55px;
+  }
+  .group-input button {
+    width: 90px;
+  }
+  .group-input button > span {
+    display: none;
+  }
+
   #open-game__slider .btn-play-game {
     bottom: 10px;
     width: 200px;
@@ -2480,6 +2494,10 @@ main {
   .link-page span {
     width: 165px;
   }
+
+  .group-input input {
+    padding-right: 65px;
+  }
 }
 @media only screen and (min-width: 1600px) {
   .header .container, .banner .container, #link-page .container {
@@ -2497,5 +2515,4 @@ main {
     padding: 0 15px;
   }
 }
-
 /*# sourceMappingURL=main-style.css.map */

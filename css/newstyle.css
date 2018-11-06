@@ -286,7 +286,9 @@ img.tit-pic {
 
 @media(max-width:767.8px) {
     .text-section .text-list li:before {
-        top: 7px;
+        top: 8px;
+        width: 10px;
+        height: 10px;
     }
     .scroll-table {
         overflow-x: scroll;
@@ -298,9 +300,9 @@ img.tit-pic {
     .text-section .text-list li {
         font-size: 15px;
         line-height: 28px;
-        padding-left: 30px;
+        padding-left: 20px;
         margin-bottom: 5px;
-    }
+    } 
     .bott160 {
         margin-bottom: 60px;
     }
@@ -310,6 +312,8 @@ img.tit-pic {
     .right-pic-block .row .col-md-6:nth-child(2) {
         order: 1;
     }
+
+   
 }
 
 @media(max-width:575.8px) {
