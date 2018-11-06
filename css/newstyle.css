@@ -1,0 +1,322 @@
+.header {
+    top: 0;
+}
+
+.link-page.no-border {
+    border: none;
+}
+
+.text-section .game-title {
+    margin-bottom: 40px;
+}
+
+.text-section .mb60 {
+    margin-bottom: 60px;
+}
+
+h4.subtitle {
+    text-transform: uppercase;
+    line-height: 31px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin-bottom: 33px;
+}
+
+.table-block {
+    max-width: 1191px;
+    margin: 0 auto 60px;
+}
+
+.table-section {
+    margin-top: 28px;
+}
+
+.table-section .table {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+.table .head-table p {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+.table .head-table .table-row {
+    display: flex;
+    background-color: #D50038;
+    height: 100px;
+}
+
+.table .body-table .table-row,
+.head-table .table-row {
+    display: flex;
+}
+
+.table .head-table .table-row div:first-child,
+.table .head-table .table-row div,
+.table .body-table .table-row div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table .head-table .table-row div:first-child,
+.table .head-table .table-row div:last-child,
+.table .body-table .table-row div:last-child,
+.table .body-table .table-row div:first-child {
+    width: 19.3%;
+}
+
+.table .head-table .table-row div:nth-child(2),
+.table .head-table .table-row div:nth-child(3),
+.table .body-table .table-row div:nth-child(2),
+.table .body-table .table-row div:nth-child(3) {
+    width: 30.7%;
+}
+
+.table .body-table .table-row div {
+    border-right: 1px solid #e9e9e9;
+}
+
+.table .body-table .table-row div:last-child {
+    border-right: none;
+}
+
+.table .body-table .table-row div p {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.table .body-table .table-row div p span {
+    margin: 0 30px;
+    height: 100%;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 30px 0 20px 0;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table .body-table {
+    padding-bottom: 20px;
+    border: 1px solid #e9e9e9;
+}
+
+.table .body-table .table-row div:first-child p {
+    color: #3EB4F0;
+}
+
+.table .head-table .table-row div {
+    border-right: 1px solid #C20033;
+}
+
+.table .head-table .table-row div:last-child {
+    border-right: none;
+}
+
+.table-section .table-block:last-child {
+    margin-bottom: 77px;
+}
+
+.text-section .text-list {
+    margin: 24px 0 62px 80px;
+}
+
+.text-section .text-list li {
+    font-weight: normal;
+    line-height: 39px;
+    font-size: 22px;
+    padding-left: 46px;
+    position: relative;
+}
+
+.text-section .text-list li:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #D50038;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.bott160 {
+    margin-bottom: 160px;
+}
+
+.martext-block p {
+    margin-bottom: 25px;
+}
+
+.martext-block {
+    margin-bottom: 80px;
+}
+
+.listtext-block p {
+    margin-bottom: 24px;
+}
+
+.text-section .listtext-block .text-list {
+    margin-bottom: 39px;
+}
+
+.openpage-sect {
+    max-width: 1192px;
+    margin: 24px auto 0;
+}
+
+img.tit-pic {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.openpage-sect h2.title {
+    font-weight: normal;
+    line-height: 52px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 45px;
+}
+.openpage-sect .left-pic-block {
+    margin: 75px 0 150px 0;
+}
+.textright .title, .fullpic-block .title {
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-weight: normal;
+    line-height: 31px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.textright p {
+    margin-bottom: 0;
+}
+.left-pic-block .picleft, .right-pic-block .picleft  {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-pic-block {
+    margin-bottom: 150px;
+}
+.picleft img {
+    max-width: 100%;
+}
+.fullpic-block {
+    margin-bottom: 110px;
+}
+.fullpic-block > img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+.left-pic-block .col-md-6,
+.right-pic-block .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* font-family: 'Oswald', sans-serif; */
+
+
+/* RESPONSIVE */
+
+@media(max-width:1300.8px) {
+    .text-section .mb60 {
+        margin-bottom: 40px;
+    }
+    h4.subtitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .table .head-table p {
+        font-size: 24px;
+    }
+    .martext-block {
+        margin-bottom: 40px;
+    }
+    .text-section .text-list {
+        margin: 24px 0 62px 40px;
+    }
+    .text-section .text-list li {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .textright .title, .fullpic-block .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .text-section .text-list li {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .text-section .text-list li:before {
+        top: 6px;
+    }
+    .openpage-sect h2.title {
+        margin-bottom: 30px;
+    }
+    .openpage-sect .left-pic-block {
+        margin: 30px 0 50px 0;
+    }
+    .right-pic-block, .fullpic-block > img, .fullpic-block {
+        margin-bottom: 50px;
+    }
+    .openpage-sect h2.title {
+        line-height: 42px;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .text-section .text-list li:before {
+        top: 7px;
+    }
+    .scroll-table {
+        overflow-x: scroll;
+    }
+    .table-section .table {
+        width: 800px;
+        max-width: initial;
+    }
+    .text-section .text-list li {
+        font-size: 15px;
+        line-height: 28px;
+        padding-left: 30px;
+        margin-bottom: 5px;
+    }
+    .bott160 {
+        margin-bottom: 60px;
+    }
+    .right-pic-block .row .col-md-6:nth-child(1) {
+        order: 2;
+    }
+    .right-pic-block .row .col-md-6:nth-child(2) {
+        order: 1;
+    }
+}
+
+@media(max-width:575.8px) {
+    .table .head-table .table-row {
+        height: 75px;
+    }
+    .text-section .text-list {
+        margin-left: 0;
+    }
+}

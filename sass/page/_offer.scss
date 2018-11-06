@@ -25,12 +25,15 @@
             font-size: $fs-22 + 8;
             font-family: $font-family-second;
             font-weight: 400;
+            width: 80%;
         }
         a {
             color: $red-color;
             font-size: $fs-22 + 2;
             font-weight: 700;
             line-height: 36px;
+            width: 75px;
+            display: block;
         }
     }
 }

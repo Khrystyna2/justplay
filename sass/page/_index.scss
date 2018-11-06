@@ -135,6 +135,9 @@ main {
             justify-content: center;
             font-size: $fs-22 + 6;
             @include transition(.5s ease);
+            > i {
+                padding-left: 3px;
+            }
         }
         &:hover span {
             background-color: $bg-color-blue;

@@ -351,6 +351,9 @@ main {
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
 }
+.news-list li span > i {
+  padding-left: 3px;
+}
 .news-list li:hover span {
   background-color: #3EB4F0;
   border: none;
@@ -926,12 +929,15 @@ main {
   font-size: 30px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
+  width: 80%;
 }
 .offer-content .offer-content__title a {
   color: #D50038;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
+  width: 75px;
+  display: block;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1301px) {
@@ -1174,6 +1180,26 @@ main {
   }
   .contacts .contacts__info > p:last-of-type {
     margin-bottom: 14px;
+  }
+
+  .offer-content {
+    width: 70%;
+    margin: 0 auto 100px;
+  }
+  .offer-content .offer-content__img {
+    height: 240px;
+    margin-bottom: 24px;
+  }
+  .offer-content .offer-content__title {
+    margin-bottom: 30px;
+  }
+  .offer-content .offer-content__title h3 {
+    font-size: 26px;
+  }
+  .offer-content .offer-content__title a {
+    color: #D50038;
+    font-size: 22px;
+    line-height: 34px;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -1529,6 +1555,26 @@ main {
   .contacts .contacts__info > p:last-of-type {
     margin-bottom: 6px;
   }
+
+  .offer-content {
+    width: 85%;
+    margin: 0 auto 100px;
+  }
+  .offer-content .offer-content__img {
+    height: 200px;
+    margin-bottom: 24px;
+  }
+  .offer-content .offer-content__title {
+    margin-bottom: 26px;
+  }
+  .offer-content .offer-content__title h3 {
+    font-size: 24px;
+  }
+  .offer-content .offer-content__title a {
+    color: #D50038;
+    font-size: 20px;
+    line-height: 34px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .news {
@@ -1824,6 +1870,29 @@ main {
   .contacts .contacts__text > p {
     margin-bottom: 10px;
   }
+
+  .offer-content {
+    width: 90%;
+    margin: 0 auto 80px;
+  }
+  .offer-content .offer-content__img {
+    height: 160px;
+    margin-bottom: 24px;
+  }
+  .offer-content .offer-content__title {
+    margin-bottom: 26px;
+  }
+  .offer-content .offer-content__title h3 {
+    font-size: 22px;
+  }
+  .offer-content .offer-content__title a {
+    color: #D50038;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .offer-content .offer-content__title a svg {
+    width: 20px;
+  }
 }
 @media only screen and (max-width: 767.5px) {
   p {
@@ -1905,6 +1974,7 @@ main {
     left: -15px;
     top: 100%;
     width: calc(100% + 30px);
+    height: calc(100vh - 80px);
     background-color: #fff;
     z-index: 10;
   }
@@ -1917,9 +1987,13 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
   }
   .top-menu > nav .menu li {
-    padding: 40px 0;
+    padding: 20px 0;
     margin-left: 0;
   }
   .top-menu > nav .menu li a {
@@ -2146,6 +2220,33 @@ main {
   .contacts .contacts__text > p {
     margin-bottom: 0;
   }
+
+  .offer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .offer-content {
+    width: 75%;
+  }
+  .offer-content .offer-content__img {
+    height: 180px;
+    margin-bottom: 18px;
+  }
+  .offer-content .offer-content__title {
+    margin-bottom: 18px;
+  }
+  .offer-content .offer-content__title h3 {
+    font-size: 20px;
+  }
+  .offer-content .offer-content__title a {
+    color: #D50038;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .offer-content .offer-content__title a svg {
+    width: 20px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .slider {
@@ -2217,6 +2318,25 @@ main {
     width: 70px;
     margin: 0 auto 8px;
   }
+
+  .offer-content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .offer-content .offer-content__img {
+    height: 160px;
+  }
+  .offer-content .offer-content__title h3 {
+    font-size: 20px;
+  }
+  .offer-content .offer-content__title a {
+    color: #D50038;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .offer-content .offer-content__title a svg {
+    width: 20px;
+  }
 }
 @media only screen and (max-width: 425px) {
   .top-menu {
@@ -2224,6 +2344,10 @@ main {
   }
   .top-menu .logo {
     width: 110px;
+  }
+
+  .top-menu > nav {
+    height: calc(100vh - 50px);
   }
 
   main {
@@ -2265,8 +2389,8 @@ main {
   }
 
   .gallery-image__desc h3 {
-    font-size: 20px;
-    margin-top: 16px;
+    font-size: 14px;
+    margin-top: 10px;
   }
 
   .clients {
