@@ -2261,6 +2261,12 @@ main {
     -ms-transform: scale(1);
     -o-transform: scale(1);
   }
+  .slider .slick-prev {
+    left: 14px;
+  }
+  .slider .slick-next {
+    right: 14px;
+  }
 
   .group-input input {
     width: 90%;
