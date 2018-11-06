@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $('.slider-header').slick({
         infinite: true,
-        // autoplay:true,
+        autoplay:true,
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
