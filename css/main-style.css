@@ -259,6 +259,7 @@ main {
 
 .header__banner-image {
   height: 574px;
+  background-size: cover !important;
 }
 
 .btn-play-game {
@@ -2009,7 +2010,6 @@ main {
 
   .header__banner-image {
     height: 330px;
-    background-size: 1150px !important;
   }
 
   .btn-play-game {
@@ -2387,7 +2387,6 @@ main {
 
   .header__banner-image {
     height: 270px;
-    background-size: 800px !important;
     background-position-y: bottom !important;
   }
 
@@ -2515,4 +2514,5 @@ main {
     padding: 0 15px;
   }
 }
+
 /*# sourceMappingURL=main-style.css.map */

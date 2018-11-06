@@ -63,7 +63,8 @@ main {
 }
 
 .header__banner-image {
-    height: 574px;    
+    height: 574px; 
+    background-size: cover !important;   
 }
 
 .btn-play-game {
